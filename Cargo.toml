@@ -1,0 +1,17 @@
+[package]
+name = "scode_monorepo"
+
+[workspace]
+members = ["./crates/*"]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+version = "0.0.1"
+license = "MIT"
+homepage = "https://github.com/MirckMuse/scode"
+repository = "https://github.com/MirckMuse/scode"
+
+
+[workspce.dependencies]
+scode_core = { path = "./crates/core" }

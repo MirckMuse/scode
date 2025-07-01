@@ -1,0 +1,13 @@
+# rust 项目
+crates/**/target
+crates/**/*.rs.bk
+crates/**/Cargo.lock
+packages/**/bin/
+crates/**/pkg/
+packages/**/wasm-pack.log
+
+# npm 项目
+
+# Added by cargo
+
+/target

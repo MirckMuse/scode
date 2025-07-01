@@ -1,0 +1,11 @@
+{
+  "name": "@scode/ui-web",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@scode/state": "workspace:*"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

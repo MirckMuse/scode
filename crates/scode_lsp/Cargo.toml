@@ -1,0 +1,12 @@
+[package]
+name = "scode_lsp"
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+repository.workspace = true
+
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
